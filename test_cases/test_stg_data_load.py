@@ -1,6 +1,6 @@
 import pytest
 from pyspark.sql import SparkSession
-from src.data_transform import (
+from src.stg_data_load import (
     rename_columns, remove_duplicates, handle_missing_values, 
     load_raw_table, write_to_staging, transform_orders, transform_product, transform_customer
 )
