@@ -1,6 +1,6 @@
 import pytest
 from pyspark.sql import SparkSession
-from src.data_transform import (
+from src.curated_data_load import (
     load_staging_table, transform_orders, add_year_column, aggregate_profits, write_to_curated
 )
 
